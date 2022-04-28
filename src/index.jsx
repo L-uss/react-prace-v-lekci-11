@@ -8,6 +8,7 @@ import About from "./components/About";
 import Home from "./components/Home"
 import Contact from "./components/Contact";
 import Product from "./components/Product";
+import NotFound from "./components/NotFound";
 
 /*const App = () => {
   return (
@@ -46,6 +47,7 @@ const App = () => {
           <Route path='/about' element={<About/>}/>
           <Route path='/product' element={<Product/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='*' element={<NotFound/>}/>
         </Routes>
       </main>
     </BrowserRouter>
